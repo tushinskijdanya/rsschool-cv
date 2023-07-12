@@ -6,13 +6,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>tushinskijdanya</title>
 </head>
 <body>
-    <div class="wrapper">
-        <header></header>
-        <main></main>
-        <footer></footer>
-    </div>
+    <header>
+        <div class="container">
+            <nav class="navigation">
+                <ul>
+                    <li>ABOUT ME</li>
+                    <li>MY SKILLS</li>
+                    <li>MY EXPIRIENCE</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="personal-block">
+                <div class="greeting">
+                    <div class="greeting-text">
+                        <p>Hi, I am</p>
+                        <h1>Daniil Tushinsky</h1>
+                        <h2>Front-end Developer</h2>
+                    </div>
+                    <div class="greeting-photo">
+                        <img src="./images/avatar.jpg" alt="avatar">
+                    </div>
+                </div>
+                <div class="about">
+                    <h3>About me:</h3>
+                    <p>
+                        The first thing I consciously and professionally began to do was floristry! 
+                        Working as a florist, I learned to communicate with a variety of people, maintaining good relationships. 
+                        And for a long time he created beauty through flowers and greenery. 
+                        However, my desire for something more made me go forward! I lacked room for imagination and freedom. 
+                        Then I decided to themselves to master the virtual world, its tools. 
+                        So that nothing limits the flight of my imagination, and I myself can write my own laws, according to which everything will work! 
+                        So, in November 2022, I started studying at the Cursor Lithuanian School of Programming, which I successfully graduated on July 28, 2023. 
+                        Full of determination and a strong desire to become a professional in my field, I signed up for a course at the RS School to consolidate the knowledge gained at the Cursor School and learn something new. 
+                        I want to own everything that is necessary for the sake of that childhood dream of mine - to create and create something new at the highest level!
+                    </p>
+                </div>
+            </section>
+            <section class="skills-block">
+                <h3>My Skills:</h3>
+                <div class="skills-block_content">
+                    <div class="languale_skills">
+                        <h4>Languages:</h4>
+                        <ul>
+                            <li>English - A1</li>
+                            <li>German - A2</li>
+                        </ul>
+                    </div>
+                    <div class="webtools_skills">
+                        <h4>Web tools:</h4>
+                        <ul>
+                            <li>HTML, CSS, SCSS</li>
+                            <li>JavaScript Basics, React Basics, Bootstrap</li>
+                            <li>Git, GitHub</li>
+                            <li>VS Code</li>
+                            <li>Adobe Photoshop, Figma</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="expirience-block">
+                <h3>My Expirience:</h3>
+                <div class="expirience-block_content">
+                    <div class="projects">
+                        <h4>Projects:</h4>
+                        <div class="projects_content">
+                            <div class="projects_content-first">
+                                <img src="" alt="shop">
+                                <p class="projects-description"></p>
+                                <a href="https://github.com/tushinskijdanya/DANY-WRLD">See project</a>
+                            </div>
+                            <div class="projects_content-second">
+                                <img src="" alt="weather">
+                                <p class="projects-description"></p>
+                                <a href="https://github.com/tushinskijdanya/WEATHER">See project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-example">
+                        <h4>Code example:</h4>
+                        <pre class="code">
+                            <code>
+                                function removeChar(str){
+                                    let result = str.slice(1, -1);
+                                    return result;
+                                };
+                            </code>
+                        </pre>
+                    </div>
+                    <div class="courses">
+                        <h4>Courses:</h4>
+                        <ul>
+                            <li>Cursor School</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer_content">
+                <div class="contacts">
+                    <h3>My contacts:</h3>
+                    <ul>
+                        <li>
+                            <a href="tel:+375339921518"><img src="./images/phone.png" alt="phone"></a>
+                        </li>
+                        <li>
+                            <a href="mailto:tushinskij.danya@gmail.com"><img src="./images/mail.png" alt="mail"></a>
+                        </li>
+                        <li>
+                            <a href="https://t.me/dany_wrld2"><img src="./images/telegram.png" alt="telegram"></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/tushinskijdanya"><img src="./images/github.png" alt="github"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="school-logo">
+                    <a href="https://rs.school/js/"><img src="//rs.school/images/rs_school_js.svg" alt="logo"></a>
+                </div>
+            </div>
+            <p class="create-year">2023</p>
+        </div>
+    </footer>
 </body>
 </html>
