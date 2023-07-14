@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main, footer {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+header, main, footer {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+header {
+    background: rgb(142, 142, 148);
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    & ul {
+        display: flex;
+        gap: 60px;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        color: rgba(215, 233, 250, 0.932);
+        font-family: 'Noto Sans';
+        font-weight: 600;
+        font-size: 19px;
+
+        & li:hover {
+            cursor: pointer;
+            color: #2ff3c9;
+        }
+    }
+}
+
+.greeting {
+    background: #bce0f6;
+
+    &-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 120px 0 120px;
+        // gap: 300px;
+    }
+
+    &-text {
+        font-family: 'Noto Sans';
+
+        & p {
+            color: rgba(0, 0, 0, 0.836);
+            font-weight: 300;
+            font-size: 35px;
+        }
+
+        & h2 {
+            color: rgba(0, 0, 0, 0.836);
+            font-weight: 600;
+            font-size: 60px;
+        }
+
+        & h1 {
+            color: rgba(105, 101, 101, 0.836);
+            font-weight: 500;
+            font-size: 27px;
+        }
+    }
+
+    &-photo img {
+        width: 300px;
+    }
+}
+
+h3 {
+    font-family: 'Noto Sans';
+    font-size: 45px;
+    font-weight: 500;
+    color: rgb(11, 94, 94);
+    letter-spacing: 5px;
+}
+
+.h-color {
+    background-color: #bce0f6;
+}
+
+.about {
+    padding-top: 90px;
+    font-family: 'Noto Sans';
+
+    & h3 {
+        margin-bottom: 20px;
+    }
+
+    & p {
+        font-size: 25px;
+        font-weight: 400;
+        color: rgb(12, 4, 34);
+        max-width: 1200px;
+        margin-bottom: 20px;
+    }
+}
+
+h4 {
+    font-family: 'Noto Sans';
+    font-size: 35px;
+    font-weight: 400;
+    color: rgb(18, 148, 148);
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.skills-block {
+    padding-top: 70px;
+
+    & h3 {
+        margin-bottom: 50px;
+    }
+
+    &_content {
+        padding: 0 120px 0 120px;
+    }
+}
+
+.languale_skills {
+    margin-bottom: 35px;
+
+    & li {
+        color: black;
+        font-family: 'Noto Sans';
+        font-size: 22px;
+        font-weight: 300;
+        letter-spacing: 3px;
+    }
+}
+
+.webtools_skills li {
+    color: black;
+    font-family: 'Noto Sans';
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+.expirience-block {
+    padding-top: 90px;
+
+    & h3 {
+        margin-bottom: 50px;
+    }
+
+    &_content {
+        padding: 0 120px 0 120px;
+    }
+}
+
+.projects {
+    margin-bottom: 50px;
+    
+    &_content {
+        display: flex;
+        justify-content: space-between;
+
+        & img {
+            width: 450px;
+            height: 245px;
+            margin-bottom: 10px;
+        }
+
+        & a {
+            border: 2px solid rgb(115, 233, 217);
+            text-decoration: none;
+            padding: 5px 10px 5px 10px;
+            background: rgba(22, 209, 184, 0.404);
+            color: rgb(0, 0, 0);
+            font-family: 'Noto Sans';
+            font-size: 19px;
+            font-weight: 500;
+
+            &:hover {
+                background: rgb(16, 143, 126);
+                border: 2px solid rgb(16, 143, 126);
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+.code-example {
+    padding: 0 120px 0 120px;
+
+    & code {
+        color: black;
+        font-family: 'Noto Sans';
+        font-size: 30px;
+        font-weight: 300;
+        letter-spacing: 5px;
+        position: relative;
+        right: 320px;
+        top: -50px;
+    }
+}
+
+.courses {
+    position: relative;
+    top: -70px;
+
+    & li {
+        color: black;
+        font-family: 'Noto Sans';
+        font-size: 22px;
+        font-weight: 300;
+        letter-spacing: 3px;
+    }
+}
+
+footer {
+    background: rgb(142, 142, 148);
+
+    & p {
+        font-family: 'Noto Sans';
+        font-size: 15px;
+        font-weight: 500;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        letter-spacing: 3px;
+    }
+}
+
+.footer_content {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    padding: 30px 0 30px 0;
+}
+
+.contacts {
+    
+    & h5 {
+        font-family: 'Noto Sans';
+        font-size: 22px;
+        font-weight: 400;
+        color: rgb(0, 0, 0);
+        letter-spacing: 3px;
+        margin-bottom: 15px;
+    }
+
+    & ul {
+        display: flex;
+        gap: 20px;
+
+        & li {
+            list-style-type: none;
+
+            & img {
+                width: 30px;
+            }
+        }
+    }
+}
+
+.school-logo img {
+    width: 200px;
+}
